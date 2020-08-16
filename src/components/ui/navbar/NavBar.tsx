@@ -36,13 +36,13 @@ const Navbar: React.FC = () => {
       >
         <div className="text-sm lg:flex-grow">
           <a
-            href="#responsive-header"
+            href="#profile"
             className="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4"
           >
             Profile
           </a>
           <a
-            href="#responsive-header"
+            href="#log-out"
             className="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4"
           >
             Log Out
