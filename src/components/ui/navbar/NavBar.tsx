@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 
 const Navbar: React.FC = () => {
-  const [collapse, setCollapse] = useState("block");
+  const [collapse, setCollapse] = useState("hidden");
 
   const onClick = () => {
     if (collapse === "block") {

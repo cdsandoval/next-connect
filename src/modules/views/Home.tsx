@@ -1,10 +1,10 @@
 import React from "react";
-import Card from "../../components/ui/card/Card";
+import Post from "../../components/ui/post/Post";
 
 const Home = () => {
   return (
-    <div className="flex justify-center">
-      <Card />
+    <div className="flex justify-center m-20">
+      <Post />
     </div>
   );
 };
